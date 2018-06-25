@@ -1,0 +1,27 @@
+{
+  "runtime": {
+    "bone-web": {
+      "js": [
+        "common.js",
+        "app.js"
+      ],
+      "css": [
+        "app.css"
+      ],
+      "statics": [
+        "static/LOGO.31bb20c5.png"
+      ]
+    }
+  },
+  "build": {
+    "cli": "@bone/roadhog",
+    "@bone/roadhog-version": "1.2.11",
+    "createTime": 1528189731339
+  },
+  "routes": [
+    {
+      "path": "/",
+      "isHome": true
+    }
+  ]
+}
